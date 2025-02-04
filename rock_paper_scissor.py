@@ -16,7 +16,10 @@ while True:
 
     if user_input==computer:
         print("It's a Tie☹️")
-    elif (user_input=="r" and computer=="s") or (user_input=="p" and computer=="r") or (user_input=="s" and computer=="p"):
+    elif \
+    (user_input=="r" and computer=="s") or \
+    (user_input=="p" and computer=="r") or \
+    (user_input=="s" and computer=="p"):
         print("You Win!!!🎉")
     else:
         print("You Lose😞")
